@@ -22,9 +22,7 @@ public class LongestCommonPrefix {
 				char curCh = first[k]; 
 				boolean good=true;
 				for(int i=1; i<strs.length;i++) {
-					//System.out.println(curCh+":"+strs[i].charAt(k));
 					if(strs[i].length()<=k || curCh!=strs[i].charAt(k)) {
-						System.out.println("cp1");
 						curCh=0;
 						good=false;
 						break;
