@@ -6,7 +6,7 @@ public class LongestCommonPrefix {
 		LongestCommonPrefix rs = new LongestCommonPrefix();
 		//System.out.println(rs.solution("A man, a plan, a canal: Panama"));
 		
-		String[] strs = {"aca","cba"};
+		String[] strs = {"hello","hell"};
 		
 		System.out.println(rs.solution(strs));
 	}
